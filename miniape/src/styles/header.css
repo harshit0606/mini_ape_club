@@ -1,0 +1,141 @@
+.Header{
+    display: flex;
+    align-items: center;
+    padding:20px 20px;
+    padding-bottom: 0px;
+}
+.logo_div{
+    flex:0.4;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
+}
+.logo_div img{
+    height:90px;
+    width:170px;
+}
+.links{
+    flex:0.6;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.links a{
+    color:white;
+    font-size: 30px;
+}
+.lore{
+    color:white;
+    margin-top: 100px;
+}
+.lore h1{
+    font-size: 40px;
+}
+.lore p{
+    font-size: 20px;
+}
+.roadmap{
+    margin-top: 100px;
+    padding:0 220px;
+}
+.roadmap h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.roadmap1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.phase{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.phase1{
+    flex:0.5;
+}
+.phase_div{
+    background-color: white;
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.phase_div1{
+    background-color: white;
+    padding:1px 15px;
+    border-radius: 5px;
+}
+
+.phase1 p{
+    
+    font-size: 20px;
+}
+
+.team{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+}
+.team h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.team_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.team_img img{
+    height: 150px;
+    width:150px;
+    border:4px solid white;
+}
+.team_img p{
+    font-size: 20px;
+}
+.footer{
+    margin-top: 150px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.discord{
+    background-color: white;
+    width: fit-content;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:5px;
+    margin-left: 10px;
+}
+.twitter{
+    background-color: white;
+    width: fit-content;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:5px;
+}
+.footer p{
+    color:white;
+    text-align: center;
+}
