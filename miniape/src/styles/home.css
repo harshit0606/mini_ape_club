@@ -1,30 +1,71 @@
 .home{
-    padding:50px 150px;
+    
 }
 .gif_div{
     display: flex;
     margin-top: 60px;
-    width: 100%;
+    
     align-items: center;
+    padding:125px 140px;
+}
+.some{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .gif_div1{
     display: flex;
     flex:0.5;
     justify-content: center;
-    
+   
 }
 .gif_div1 img{
     height:300px;
     width:300px;
     border: 4px solid white;
+    border-radius: 10px;
 }
 .gif_div2{
     flex:0.5;
-    color:white;
+    color:white
 }
 .gif_div2 h1{
     font-size: 50px;
+    font-weight: 600;
+    font-family: 'Bungee', cursive;
+    margin:0px;
+    line-height: 55px;
 }
 .gif_div2 p{
     font-size: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+@media(max-width:700px){
+    .gif_div{
+        padding:100px 70px;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .gif_div2 h1{
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Bungee', cursive;
+        margin:0px;
+        margin-top:20px;
+text-align: center;
+        line-height: 55px;
+    }
+    .gif_div2 p{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+@media(max-width:400px){
+    .gif_div h1{
+        font-size: 30px;
+    }
 }
