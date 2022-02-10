@@ -1,5 +1,5 @@
 import React from 'react';
-import Gif from "../images/preview.gif"
+import Gif from "../images/finalGif.gif"
 import "../styles/home.css";
 import one from "../images/1.png"
 import two from "../images/2.png"
@@ -7,6 +7,7 @@ import Header from "../components/header"
 import three from "../images/3.png"
 import {BsDiscord} from "react-icons/bs"
 import {BsTwitter} from "react-icons/bs"
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion'
 
@@ -22,7 +23,7 @@ return(
 </div>
 <div className='gif_div2'>
 <h1>Mischievous Mini Ape Club</h1>
-<p>3333 Unique Mini Apes roaming Solana Island. 🏝</p>
+<p>3333 Unique Mini Apes ruling Solana Island. 🏝</p>
 </div>
 </div>
 </div>
@@ -159,10 +160,10 @@ Dr Enny had become so fixated by his evolved creation that he did not notice the
 </div>
   <div className='footer'>
   <div className='socials'>
-  <div className='twitter'>
-    <BsTwitter style={{color:"#12f3cd"}}/></div>
-  <div className='discord'>
-    <BsDiscord style={{color:"#12f3cd"}} /></div>
+  <a href="https://twitter.com/MiniApesNFT_"><div className='twitter'>
+    <BsTwitter style={{color:"#12f3cd"}}/></div></a>
+    <a href="https://discord.gg/XEY9pdDbkv"> <div className='discord'>
+     <BsDiscord style={{color:"#12f3cd"}} /></div></a>
     </div>
     <hr></hr>
     <p>Copyright © 2022 Mischievous Mini Ape Club. All Right Reserved</p>
