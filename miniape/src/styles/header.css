@@ -173,6 +173,11 @@ justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+.team_img span{
+    font-size: 14px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
 .faq{
     padding:10px 150px;
     color:white;
@@ -271,7 +276,7 @@ justify-content: space-around;
     .team_imgs{
         flex-direction: column;
     }
-    .team_img p{
+    .team_img span{
         margin-bottom: 20px;
     }
     .faq{
