@@ -109,14 +109,17 @@ Dr Enny had become so fixated by his evolved creation that he did not notice the
       <div className='team_img'>
       <img src={one}/>
       <p>General Ape</p>
+      <span>Founded MMAC</span>
       </div>
       <div className='team_img'>
       <img src={two}/>
       <p>Khaleesi</p>
+      <span>Community Manager</span>
       </div>
       <div className='team_img'>
       <img src={three}/>
       <p>Marcuss</p>
+      <span>Cryto/NFT Advisor</span>
       </div>
     </div>
   </div>
